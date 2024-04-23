@@ -103,6 +103,7 @@ class TabPerfil extends StatelessWidget {
                 padding: const EdgeInsets.only(top: 50),
                 
                 child: OutlinedButton(child: Text("Cerrar Sesion",
+                selectionColor: Colors.redAccent,
                 style: TextStyle(fontSize: 20,
                 color: Colors.white)
                 ),
