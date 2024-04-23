@@ -8,7 +8,7 @@ class TabServicios extends StatelessWidget {
   final String title;
   final List<Widget> Fancy = <Widget>[
     WServices(
-      image: Image.asset('assets/images/thecleners.jpg'),
+      image: Image.asset('assets/images/Perfil.jpg'),
       title: "Servicio Sommelier",
     ),
         WServices(
