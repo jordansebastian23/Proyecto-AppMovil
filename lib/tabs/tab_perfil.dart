@@ -20,15 +20,15 @@ class TabPerfil extends StatelessWidget {
               padding: EdgeInsets.only(top: 100,bottom: 40),
               child: Center(
                 child: CircleAvatar(
-                  radius: 80,
+                  radius: 85,
                   backgroundColor: const Color.fromARGB(255, 5, 94, 104),
                   child: CircleAvatar(
-                    radius: 70,
+                    radius: 80,
                     backgroundColor: Colors.white,
 
                     child: CircleAvatar(
-                      radius: 65,
-                      backgroundImage: AssetImage('assets/images/Logo.png'),
+                      radius: 77,
+                      backgroundImage: AssetImage('assets/images/Perfil.jpg'),
                     )
                     ),
                 ),
