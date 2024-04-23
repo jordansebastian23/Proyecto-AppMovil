@@ -12,7 +12,7 @@ class TabServicios extends StatelessWidget {
       title: "Servicio Sommelier",
     ),
         WServices(
-      image: Image.asset('assets/images/Perfil.jpg'),
+      image: Image.asset('assets/images/Fondo.jpg'),
       title: "Servicio Medico",
     ),
         WServices(
@@ -21,7 +21,7 @@ class TabServicios extends StatelessWidget {
     ),
         WServices(
 
-      image: Image.asset('assets/images/Perfil.jpg'),
+      image: Image.asset('assets/images/Fondo.jpg'),
       title: "Servicio Limpiaderos",
     ),
         WServices(
