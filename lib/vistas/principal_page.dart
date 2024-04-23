@@ -12,7 +12,7 @@ class PrincipalPage extends StatefulWidget {
   List<Widget> paginas = [
     TabContratos(),
     TabPerfil(),
-    TabServicios(),
+    TabServicios(title: '',),
   ];
   //const currentIndex = 0;
   @override

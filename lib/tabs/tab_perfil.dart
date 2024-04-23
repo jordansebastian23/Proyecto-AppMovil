@@ -8,6 +8,7 @@ class TabPerfil extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
+        
         body: Column(
           children: <Widget>[
             Container(
@@ -20,7 +21,7 @@ class TabPerfil extends StatelessWidget {
               child: Center(
                 child: CircleAvatar(
                   radius: 80,
-                  backgroundColor: const Color.fromARGB(255, 22, 22, 22),
+                  backgroundColor: const Color.fromARGB(255, 5, 94, 104),
                   child: CircleAvatar(
                     radius: 70,
                     backgroundColor: Colors.white,
@@ -57,8 +58,6 @@ class TabPerfil extends StatelessWidget {
                     )
                     ),
             ),
-              
-
             Column(
               children: [
                 Container(
@@ -70,7 +69,7 @@ class TabPerfil extends StatelessWidget {
                     children: [
                       
                       Icon(Elusive.location, color: Colors.white, size: 40,),
-                      Text("Calle 123"),
+                      Text("Calle 123", style: TextStyle(fontSize: 20,color: const Color.fromARGB(255, 5, 94, 104)),),
                       //Expanded(child: Text("1233")),
                       VerticalDivider(
                         width: 2,
@@ -80,7 +79,7 @@ class TabPerfil extends StatelessWidget {
                         endIndent: 30,
                       ),
                       Icon(MdiIcons.pistol, color: Colors.white, size: 40,),
-                      Text("112"),
+                      Text("112", style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 5, 94, 104)),),
                       //Expanded(child: Text("1233")),
                       
                         VerticalDivider(
@@ -91,7 +90,7 @@ class TabPerfil extends StatelessWidget {
                         endIndent: 30,
                       ),
                       Icon(MdiIcons.cakeVariant, color: Colors.white, size: 40,),
-                      Text("28 Años")
+                      Text("28 Años", style: TextStyle(fontSize: 20, color: const Color.fromARGB(255, 5, 94, 104)),)
                       //Expanded(child: Text("1233")),
                     ],
                     
@@ -105,8 +104,7 @@ class TabPerfil extends StatelessWidget {
                 child: FloatingActionButton(
                             
                 onPressed: () {
-                  //Navigator.pushNamed(context,);
-                  //Navigator.pushNamed(context, );
+                  
                 },
                 child: Icon(Icons.logout,),
                 backgroundColor: Colors.white70,

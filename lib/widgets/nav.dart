@@ -15,7 +15,7 @@ class _NavBarState extends State<NavBar> {
   List<Widget> paginas = [
     TabContratos(),
     TabPerfil(),
-    TabServicios(),
+    TabServicios(title: ''),
   ];
   @override
   Widget build(BuildContext context) {
@@ -42,7 +42,7 @@ class _NavBarState extends State<NavBar> {
         body: paginas[index],
 
         bottomNavigationBar : BottomNavigationBar(
-            unselectedItemColor: const Color.fromARGB(255, 127, 127, 127),
+            unselectedItemColor: const Color.fromARGB(255, 185, 210, 210),
             selectedItemColor: Colors.greenAccent,
             type: BottomNavigationBarType.shifting,
             items: [
