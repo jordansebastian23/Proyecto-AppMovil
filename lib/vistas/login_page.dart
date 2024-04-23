@@ -47,11 +47,10 @@ class LoginPage extends StatelessWidget {
       bottom: Radius.circular(10.0),
       top: Radius.circular(10.0),
     );
-    const logoWitch = 100.0;
+    const logoWitch = 300.0;
     return FlutterLogin(
       
-      title: 'Login',
-      logo: 'assets/images/Logo.png',
+      logo: AssetImage('assets/images/Logo.png'),
       onLogin: _authUser,
       onSignup: _signupUser,
       onSubmitAnimationCompleted: () {
@@ -74,10 +73,21 @@ class LoginPage extends StatelessWidget {
         inputTheme: InputDecorationTheme(
           border: OutlineInputBorder(
             borderRadius: inputBorder,
-            borderSide: BorderSide(color: Colors.black),
+            borderSide: BorderSide(color: Colors.white, width: 2),
           ),
+          errorStyle: TextStyle(
+            color: const Color.fromARGB(255, 249, 129, 127),
+            fontSize: 13,
+          ),
+          
+        ),
+        buttonTheme: LoginButtonTheme(
+          splashColor: Color.fromARGB(255, 23, 165, 113),
+          backgroundColor: Color.fromARGB(255, 5, 94, 104),
+          highlightColor: Color.fromARGB(255, 23, 165, 113),
         ),
         cardTheme: CardTheme(
+          color: Color.fromARGB(255, 5, 94, 104),
           margin: EdgeInsets.only(top: 15),
         ),
         logoWidth: logoWitch,
