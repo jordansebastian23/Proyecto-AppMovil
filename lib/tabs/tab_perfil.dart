@@ -101,14 +101,15 @@ class TabPerfil extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 50),
-                child: FloatingActionButton(
-                            
-                onPressed: () {
-                  
-                },
-                child: Icon(Icons.logout,),
-                backgroundColor: Colors.white70,
-                          ),
+                
+                child: OutlinedButton(child: Text("Cerrar Sesion",
+                style: TextStyle(fontSize: 20,
+                color: Colors.white)
+                ),
+          onPressed: () {
+            
+          },
+          ),
               ),    
             
           ],

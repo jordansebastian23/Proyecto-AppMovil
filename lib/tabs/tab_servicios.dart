@@ -9,27 +9,23 @@ class TabServicios extends StatelessWidget {
   final List<Widget> Fancy = <Widget>[
     WServices(
       image: Image.asset('assets/images/Logo.png'),
+      title: "Servicio Sommelier",
+    ),
+        WServices(
+      image: Image.asset('assets/images/doctor.jpg'),
       title: "Servicio Medico",
     ),
         WServices(
       image: Image.asset('assets/images/Logo.png'),
-      title: "Servicio Medico",
+      title: "Servicio Sastre",
     ),
         WServices(
       image: Image.asset('assets/images/Logo.png'),
-      title: "Servicio Medico",
+      title: "Servicio Limpiaderos",
     ),
         WServices(
       image: Image.asset('assets/images/Logo.png'),
-      title: "Servicio Medico",
-    ),
-        WServices(
-      image: Image.asset('assets/images/Logo.png'),
-      title: "Servicio Medico",
-    ),
-        WServices(
-      image: Image.asset('assets/images/Logo.png'),
-      title: "Servicio Medico",
+      title: "Servicio Hotelero",
     ),
     
   ];
