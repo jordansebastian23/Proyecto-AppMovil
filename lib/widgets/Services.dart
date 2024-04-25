@@ -22,13 +22,12 @@ class WServices extends StatefulWidget {
           return SplashMedico();
         case "Servicio Sastre":
           return SplashSastre();
-        case "Servicio Limpiaderos":
+        case "Servicio Limpiadores":
           return SplashLimpiaderos();
         case "Servicio Hotelero":
           return SplashHoteleros();
         default:
-          return Container(
-            color: const Color.fromARGB(255, 102, 95, 95),
+          return Scaffold(body: Center(child: Text("Error"))
           );
       }
     });
