@@ -47,10 +47,10 @@ class LoginPage extends StatelessWidget {
       bottom: Radius.circular(10.0),
       top: Radius.circular(10.0),
     );
-    const logoWitch = 300.0;
+    const logoWitch = 100.0;
     return FlutterLogin(
       
-      logo: AssetImage('assets/images/Logo.png'),
+      title: "The High Table",
       onLogin: _authUser,
       onSignup: _signupUser,
       onSubmitAnimationCompleted: () {

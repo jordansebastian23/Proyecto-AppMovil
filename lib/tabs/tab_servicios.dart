@@ -8,31 +8,34 @@ class TabServicios extends StatelessWidget {
   final String title;
   final List<Widget> Fancy = <Widget>[
     WServices(
-      image: Image.asset('assets/images/Perfil.jpg'),
+      image: Image.asset('assets/images/Sommelier.jpg'),
       title: "Servicio Sommelier",
     ),
         WServices(
-      image: Image.asset('assets/images/Fondo.jpg'),
+      image: Image.asset('assets/images/Medico.jpg'),
       title: "Servicio Medico",
     ),
         WServices(
-      image: Image.asset('assets/images/Perfil.jpg'),
+      image: Image.asset('assets/images/Sastre.jpg'),
       title: "Servicio Sastre",
     ),
         WServices(
 
       image: Image.asset('assets/images/Fondo.jpg'),
-      title: "Servicio Limpiaderos",
+      title: "Servicio Limpiadores",
     ),
         WServices(
       image: Image.asset('assets/images/Perfil.jpg'),
       title: "Servicio Hotelero",
     ),
+
+    
     
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       body: StackedCardCarousel(items: Fancy),
     );
   }

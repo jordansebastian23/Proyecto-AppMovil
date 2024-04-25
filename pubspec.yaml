@@ -42,6 +42,7 @@ dependencies:
   icofont_flutter: ^1.4.0
   stacked_card_carousel: ^0.0.4
   water_drop_nav_bar: ^2.2.1
+  row_item: ^2.2.1+1
 
 dev_dependencies:
   flutter_test:

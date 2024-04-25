@@ -18,8 +18,8 @@ class TabContratos extends StatelessWidget {
           ),
           //card 1
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -32,7 +32,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado:\nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$2800\nTipo de contrato: Hackear Sistemas\nPersona Objetivo: Carlos Alten',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -40,18 +40,15 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
+                
               ),
             ),
           ),
+
           //card 2
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -64,7 +61,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado: \nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$4200\nTipo de contrato: Eliminación de Testigo\nPersona Objetivo: Paloma Mami',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -72,18 +69,13 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
               ),
             ),
           ),
           //card 3
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -96,7 +88,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado: \nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$3000\nTipo de contrato: Rescate de Rehén\nPersona Objetivo: Cris MJ',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -104,18 +96,13 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
               ),
             ),
           ),
           //card 4
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -128,7 +115,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado: \nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$4500\nTipo de contrato: Limpiar Escena del Crimen\nPersona Objetivo: Drefquila',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -136,18 +123,13 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
               ),
             ),
           ),
           //card 5
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -160,7 +142,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado: \nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$5000\nTipo de contrato: Eliminación de Objetivo de Alto Perfil\nPersona Objetivo: Pablo Chill-E',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -168,18 +150,13 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
               ),
             ),
           ),
           //card 6
           SizedBox(
-            width: 400,
-            height: 150,
+            width: 300,
+                height: 170,
             child: Card.outlined(
               margin: EdgeInsets.only(right: 15, left: 15, bottom: 15, top: 5),
               shape: RoundedRectangleBorder(
@@ -192,7 +169,7 @@ class TabContratos extends StatelessWidget {
                         fontSize: 20,
                         fontWeight: FontWeight.bold)),
                 subtitle: Text(
-                    'Estado: \nMonto de dinero: \nTipo de contrato: \nPersona Objetivo: ',
+                    'Estado: Activo\nMonto de dinero: \$2800\nTipo de contrato: Recuperación de Sistemas\nPersona Objetivo: Gonzalo Mendoza',
                     style: TextStyle(color: Colors.white, fontSize: 15)),
                 leading: CircleAvatar(
                     radius: 28,
@@ -200,11 +177,7 @@ class TabContratos extends StatelessWidget {
                     child: Icon((IcoFontIcons.page),
                         size: 45,
                         color: const Color.fromARGB(255, 5, 94, 104))),
-                trailing: IconButton(
-                  icon: Icon(Icons.keyboard_arrow_right_sharp, size: 40,),
-                  onPressed: () {
-                  },
-                ),
+                
               ),
             ),
           ),

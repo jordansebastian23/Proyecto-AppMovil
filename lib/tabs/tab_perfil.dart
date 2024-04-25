@@ -20,16 +20,16 @@ class TabPerfil extends StatelessWidget {
               //image: AssetImage('assets/images/fondo.jpg')
               //),
               //),
-              padding: EdgeInsets.only(top: 100, bottom: 40),
+              padding: EdgeInsets.only(top: 100, bottom: 30),
               child: Center(
                 child: CircleAvatar(
-                  radius: 85,
+                  radius: 100,
                   backgroundColor: const Color.fromARGB(255, 5, 94, 104),
                   child: CircleAvatar(
-                      radius: 80,
+                      radius: 95,
                       backgroundColor: Colors.white,
                       child: CircleAvatar(
-                        radius: 77,
+                        radius: 88,
                         backgroundImage: AssetImage('assets/images/Perfil.jpg'),
                       )),
                 ),
@@ -37,12 +37,12 @@ class TabPerfil extends StatelessWidget {
             ),
             Divider(
               color: Colors.white,
-              indent: 20,
-              endIndent: 20,
+              indent: 25,
+              endIndent: 25,
             ),
             SizedBox(
               width: 400,
-              height: 30,
+              height: 15,
             ),
             SizedBox(
               width: 400,
