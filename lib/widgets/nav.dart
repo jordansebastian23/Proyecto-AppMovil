@@ -34,7 +34,7 @@ class _NavBarState extends State<NavBar> {
         ),
         title: Padding(
           padding: const EdgeInsets.only(top: 25),
-          child: Text('The Hight Table'),
+          child: Text('The High Table'),
         ),
         centerTitle: true,
       ),
